@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js.js" defer></script>
+    <!--defer - запускает код в js после прогрузки всей страницы-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Крестики-нолики</title>
+  </head>
+  <body>
+    <span class="game-title" id="message">Ходит игрок X</span>
+    <div id="game"></div>
+    <button id="reset-game" href="#" onclick="location.reload(); return false;">
+      Очистить
+    </button>
+  </body>
+</html>
